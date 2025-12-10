@@ -1,0 +1,67 @@
+GUÍA DE RECURSOS E IMÁGENES VITASENS
+======================================
+
+Para personalizar la landing page con tus imágenes reales, sigue estos pasos:
+
+1. Prepara tus imágenes (formatos recomendados: JPG para fotos, PNG para logos/iconos).
+2. Sube tus imágenes a tu hosting, carpeta 'public', o servicio de almacenamiento.
+3. Abre el archivo `constants.ts` en la raíz del proyecto.
+4. Busca la sección `export const ASSETS`.
+5. Reemplaza las URL de ejemplo con tus rutas.
+
+LISTADO DE IMÁGENES REQUERIDAS
+------------------------------
+
+CLAVE: logo
+DESCRIPCIÓN: Logotipo principal de VitaSens.
+TIPO: PNG (Fondo transparente)
+TAMAÑO RECOMENDADO: 150x50px
+
+CLAVE: hero_split
+DESCRIPCIÓN: Imagen conceptual del Acto 1. Debe mostrar contraste o dualidad (Tensión vs Control).
+TIPO: JPG (Alta calidad)
+TAMAÑO RECOMENDADO: 1200x800px (o superior)
+UBICACIÓN: Componente `Hero.tsx`
+
+CLAVE: product_bottle
+DESCRIPCIÓN: Foto del producto (tarro de VitaSens) en alta calidad, preferiblemente silueteada o con fondo limpio.
+TIPO: PNG (Transparente ideal) o JPG
+TAMAÑO RECOMENDADO: 600x600px
+UBICACIÓN: Componente `ProductSolution.tsx`
+
+CLAVE: market_bg
+DESCRIPCIÓN: Imagen de fondo para gráficos o secciones de relleno (opcional).
+TIPO: JPG
+TAMAÑO RECOMENDADO: 1920x600px
+
+CLAVE: founder_silvana
+DESCRIPCIÓN: Fotografía profesional de Silvana.
+TIPO: JPG (Cuadrada)
+TAMAÑO RECOMENDADO: 400x400px
+
+CLAVE: founder_nidia
+DESCRIPCIÓN: Fotografía profesional de Nidia.
+TIPO: JPG (Cuadrada)
+TAMAÑO RECOMENDADO: 400x400px
+
+CLAVE: founder_sara
+DESCRIPCIÓN: Fotografía profesional de Sara.
+TIPO: JPG (Cuadrada)
+TAMAÑO RECOMENDADO: 400x400px
+
+CLAVE: founder_yobany
+DESCRIPCIÓN: Fotografía profesional de Yobany.
+TIPO: JPG (Cuadrada)
+TAMAÑO RECOMENDADO: 400x400px
+
+CLAVE: founder_taty
+DESCRIPCIÓN: Fotografía profesional de Taty.
+TIPO: JPG (Cuadrada)
+TAMAÑO RECOMENDADO: 400x400px
+
+NOTA:
+Todas las imágenes de los fundadores se muestran en `Team.tsx`.
+
+COLORES (Configurados en index.html):
+- Primario (Púrpura VitaSens): #6D28D9
+- Acento (Rojo Tensión): #EF4444
