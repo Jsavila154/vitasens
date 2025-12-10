@@ -17,17 +17,17 @@ export const Team: React.FC = () => {
         {TEAM_MEMBERS.map((member, idx) => (
           <div key={idx} className="bg-white border border-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group flex flex-col h-full">
             {/* Imagen ajustada en altura para ser más compacta y mantener alineación */}
-            <div className="h-48 lg:h-32 xl:h-40 overflow-hidden bg-gray-200 relative">
-              <img 
-                src={ASSETS[member.imageKey]} 
-                alt={member.name} 
+            <div className="aspect-square w-full overflow-hidden bg-gray-200 relative">
+              <img
+                src={ASSETS[member.imageKey]}
+                alt={member.name}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
                 <span className="text-white text-[10px] font-semibold tracking-wide uppercase">Fundador</span>
               </div>
             </div>
-            
+
             <div className="p-3 lg:p-4 flex-grow flex flex-col">
               <h3 className="text-base lg:text-lg font-bold text-gray-900 leading-tight mb-1">{member.name}</h3>
               <p className="text-vitasens-primary text-[10px] lg:text-xs font-bold uppercase tracking-wider mb-2 line-clamp-1" title={member.role}>{member.role}</p>

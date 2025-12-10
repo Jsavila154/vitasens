@@ -6,20 +6,20 @@ import { NavItem, Feature, TeamMember, AssetMap } from './types';
 // Modifica estas rutas cuando tengas tus imágenes reales.
 // Las claves se usan en los componentes para buscar la imagen.
 export const ASSETS: AssetMap = {
-  logo: "https://picsum.photos/id/64/150/50", // Logo placeholder
-  hero_split: "https://picsum.photos/id/96/1200/800", // Imagen conceptual tensión vs control
-  product_bottle: "https://picsum.photos/id/225/600/600", // Foto del producto VitaSens
+  logo: "/images/Logo placeholder.jpg", // Logo placeholder
+  hero_split: "/images/tensión vs control.jpg", // Imagen conceptual tensión vs control
+  product_bottle: "/images/producto VitaSens.jpg", // Foto del producto VitaSens
   market_bg: "https://picsum.photos/id/403/1200/600", // Fondo sección mercado
-  founder_silvana: "https://picsum.photos/id/64/400/400", // Foto Silvana
-  founder_nidia: "https://picsum.photos/id/65/400/400", // Foto Nidia
-  founder_sara: "https://picsum.photos/id/1005/400/400", // Foto Sara
-  founder_yobany: "https://picsum.photos/id/1012/400/400", // Foto Yobany
-  founder_taty: "https://picsum.photos/id/1027/400/400", // Foto Taty
+  founder_silvana: "/images/Silvana.jpg", // Foto Silvana
+  founder_nidia: "/images/Nidia.jpg", // Foto Nidia
+  founder_sara: "/images/Sara.jpg", // Foto Sara
+  founder_yobany: "/images/Yobany.jpg", // Foto Yobany
+  founder_taty: "/images/Taty.jpg", // Foto Taty
   avatar1: "https://i.pravatar.cc/150?img=32", // Avatar validación
   avatar2: "https://i.pravatar.cc/150?img=11", // Avatar validación
   avatar3: "https://i.pravatar.cc/150?img=5", // Avatar validación
   avatar4: "https://i.pravatar.cc/150?img=68", // Avatar validación
-  trust_badges: "https://via.placeholder.com/80x200/eeeeee/000000?text=Logos+FDA+EFESA", 
+  trust_badges: "https://via.placeholder.com/80x200/eeeeee/000000?text=Logos+FDA+EFESA",
 };
 
 // ==========================================
@@ -27,8 +27,8 @@ export const ASSETS: AssetMap = {
 // ==========================================
 
 export const NAV_ITEMS: NavItem[] = [
-  { 
-    label: 'El Problema', 
+  {
+    label: 'El Problema',
     href: '#problema',
     submenu: [
       { title: "La Zona Roja", description: "Incertidumbre e inflamación silenciosa." },
@@ -36,8 +36,8 @@ export const NAV_ITEMS: NavItem[] = [
       { title: "Fallas del Mercado", description: "Por qué lo tradicional no funciona." }
     ]
   },
-  { 
-    label: 'Solución', 
+  {
+    label: 'Solución',
     href: '#solucion',
     submenu: [
       { title: "Tecnología Clean Label", description: "Extracción mecánica patentada." },
@@ -45,8 +45,8 @@ export const NAV_ITEMS: NavItem[] = [
       { title: "Revolución Sensorial", description: "Invisible al paladar, fácil de usar." }
     ]
   },
-  { 
-    label: 'Por qué Vitasens', 
+  {
+    label: 'Por qué Vitasens',
     href: '#porque',
     submenu: [
       { title: "Vs. Tradicional", description: "Superando a la avena y remedios." },
